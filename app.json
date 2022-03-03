@@ -17,11 +17,11 @@
     "env": {
       "API_ID": {
         "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
-        "required": "3335796",
+        "required": true
       },
       "API_HASH": {
         "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
-        "required": "138b992a0e672e8346d8439c3f42ea78",
+        "required": true
       },
       "BOT_TOKEN": {
         "description": "Bot token of Bot, get from @Botfather",
@@ -54,7 +54,7 @@
       },
       "ADMIN_ONLY": {
         "description": "Change it to True if you want to make /play command available for everyone.",
-        "value": "763990585",
+        "value": "False",
         "required": false
       },
       "HEROKU_API_KEY": {
